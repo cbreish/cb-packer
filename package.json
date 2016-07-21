@@ -13,6 +13,14 @@
   ],
   "author": "Chris Breish",
   "license": "MIT",
+  "homepage": "https://github.com/cbreish/cb-packer",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/cbreish/cb-packer.git"
+  },
+  "bugs": {
+	"url": "https://github.com/cbreish/cb-packer/issues"
+  },
   "dependencies": {
     "jsonfile": "^2.3.1",
     "tmp": "0.0.28"
