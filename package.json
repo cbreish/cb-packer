@@ -16,5 +16,8 @@
   "dependencies": {
     "jsonfile": "^2.3.1",
     "tmp": "0.0.28"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
   }
 }
