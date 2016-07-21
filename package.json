@@ -1,0 +1,20 @@
+{
+  "name": "cb-packer",
+  "version": "0.0.1",
+  "description": "A very lightweight utility to make interacting with Hashicorp's Packer easier",
+  "main": "PackerFile.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "packer",
+    "hashicorp",
+    "packer.io"
+  ],
+  "author": "Chris Breish",
+  "license": "MIT",
+  "dependencies": {
+    "jsonfile": "^2.3.1",
+    "tmp": "0.0.28"
+  }
+}
