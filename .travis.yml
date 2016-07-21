@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
+deploy:
+  provider: npm
+  email: cbreish@gmail.com
+  api_key:
+    secure: oVACh3DoAsp7+tWrbnA6/YRR+vQNpa9nn/TCxm72NCnP8mVBupW7QQu48uJ2QbZmt64fkqWUXS/fIYlBnq7z7WZxfTtFizpnW+BMuEboks02tcwBYbcUc5K6aDfCTGqX1GAiCsRIXw815YTJjtweAaICdAqV1aG8LmPBO80Um2EEDwohG7GYZYMSxQX41ybebXP9ZT+ssnkTHhxfqdtMrocbTb5qeS/GGl8l6YQdD+cmFMaYnW91PAkvTx+aYDDBZjDaa7bx1Aj0JYRk/qpDQCNOw62P7k9nMxmeS4ehegojDrhmiv7oCEd7u7IG5eR/7hkDlXSigPTPiZcH6l8KNSIiLpqP6RzzIxE/5ZI58XLoqCxPwLfjq2OLcSR8jft2dtbbYFYBZz4jyLwpBrw/W6KDdpWebQzbpZ4arJ1oOzzFwioOY9B+zrJL0OzMBCe9wAtlmibjbpzb6C0jKbhlyDJ/V1jsTwk8du/0FPLnzoUXXZ+mHPkFQPHo4Uc7ROeKpoyci6qvGkjOMud492iEOD1EkQfFN5MbeD4fq6sbWfcndYtgaVuR+j1K9LIuAI3PdPVvCKmpOsqGRQAT1IDKNwPtJ0o6uceZwDHu3qRQsBsutwldVH0zH2HJuS2l++0QGxAMnVxVn57vtdeBSk6hK7wvS9jiXJsCa/x2M+xuJsI=
+  on:
+    repo: cbreish/cb-packer
